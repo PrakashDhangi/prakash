@@ -1,0 +1,53 @@
+
+admin@DESKTOP-1NH3M08 MINGW64 /c/myprojects (master)
+$ git log
+commit 075d022e2643f9274cdaff616f1f11b8ab8f7c47 (HEAD -> master)
+Author: prakash <prakashdhangi6@gmail.com>
+Date:   Wed Aug 7 09:21:22 2024 +0530
+
+    this is my 1st commit
+
+commit 400fb4bd69d64bf07dfcbb8e0f06079403e12d68
+Author: prakash <prakashdhangi6@gmail.com>
+Date:   Tue Aug 6 09:03:06 2024 +0530
+
+    this is my first commit
+
+admin@DESKTOP-1NH3M08 MINGW64 /c/myprojects (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    a.txt
+        deleted:    b.txt
+        modified:   prakash.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+admin@DESKTOP-1NH3M08 MINGW64 /c/myprojects (master)
+$ git commit
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    a.txt
+        deleted:    b.txt
+        modified:   prakash.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+admin@DESKTOP-1NH3M08 MINGW64 /c/myprojects (master)
+$ git commit -a -m "prakash file modified"
+[master 6f0d25e] prakash file modified
+ 3 files changed, 1 insertion(+)
+ delete mode 100644 a.txt
+ delete mode 100644 b.txt
+
+admin@DESKTOP-1NH3M08 MINGW64 /c/myprojects (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+admin@DESKTOP-1NH3M08 MINGW64 /c/myprojects (master)
+$
